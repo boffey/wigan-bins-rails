@@ -39,4 +39,8 @@ class Property
 
     return items
   end
+
+  def collections
+    Collection.for_property(self.id)
+  end
 end
