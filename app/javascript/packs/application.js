@@ -10,7 +10,7 @@ require("channels")
 
 require("css/application.css")
 
-import Vue from 'vue/dist/vue.esm.js';
+import Vue from 'vue';
 import TurbolinksAdapter from 'vue-turbolinks'
 import PortalVue from "portal-vue";
 import App from '../components/App.vue'
